@@ -1,3 +1,4 @@
+name: Executing Shell Script
 on: push
 
 jobs:
