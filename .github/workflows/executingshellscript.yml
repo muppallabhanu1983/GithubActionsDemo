@@ -8,8 +8,9 @@ jobs:
           uses: actions/checkout@v4 
           
         - name: List Repo Files
-          run: [ls -ltra, pwd]  
-
+          run: | 
+             ls -ltra 
+             pwd
 
         - name: Executing Shell Script
           run: |
